@@ -2,9 +2,9 @@
 const state = {
   route: (location.hash || '#overview').replace('#',''),
   players: [
-    { Nama: 'Nizar', umur: 8, jabatan: 'Ketua Rismi' },
-    { Nama: 'Abdurrohman', umur: 9, jabatan: 'Wakil Ketua Rismi'},
-    { Nama: 'Pai', umur: 8, jabatan: 'Bidang Teknisi' }
+    { Nama: 'Nizar', umur: 20, jabatan: 'Ketua Rismi' },
+    { Nama: 'Abdurrohman', umur: 22, jabatan: 'Wakil Ketua Rismi'},
+    { Nama: 'Pai', umur: 16, jabatan: 'Bidang Teknisi' }
   ],
   fixtures: [],
   transfers: [],
