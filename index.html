@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FootyMarket – Portugal</title>
+  <meta name="description" content="Website bergaya Transfermarkt untuk tim nasional Portugal."/>
+  <link rel="stylesheet" href="./css/styles.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-inner container">
+      <div class="logo">
+        <img src="./assets/logo.svg" alt="FootyMarket"/>
+        <span class="brand">FootyMarket</span>
+      </div>
+      <div class="tabs">
+        <button class="tab" data-route="overview" onclick="setRoute('overview')">Overview</button>
+        <button class="tab" data-route="squad" onclick="setRoute('squad')">Squad</button>
+        <button class="tab" data-route="fixtures" onclick="setRoute('fixtures')">Fixtures</button>
+        <button class="tab" data-route="transfers" onclick="setRoute('transfers')">Transfers</button>
+        <button class="tab" data-route="marketvalue" onclick="setRoute('marketvalue')">Market Value</button>
+        <button class="tab" data-route="news" onclick="setRoute('news')">News</button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container" id="app"></main>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+
+  <footer class="container footer">
+    <div>© 2025 FootyMarket. Demo edukasi. Tidak terafiliasi dengan Transfermarkt.</div>
+  </footer>
+
+  <script src="./js/app.js"></script>
+</body>
+</html>
