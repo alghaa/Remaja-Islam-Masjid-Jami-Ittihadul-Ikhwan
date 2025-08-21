@@ -10,7 +10,7 @@ const state = {
     { Nama: 'Dandi', umur: 15, jabatan: 'Flank' },
     { Nama: 'Arda', umur: 16, jabatan: 'Flank' },
     { Nama: 'Kristian', umur: 16, jabatan: 'Pivot' },
-    { Nama: 'Nando', umur: 16, jabatan: 'Pivot' },
+    { Nama: 'Nando', umur: 16, jabatan: 'Pivot' }
   ],
   fixtures: [],
   transfers: [],
